@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Corruptor logo">
+  <rect width="128" height="128" rx="24" fill="#09090f"/>
+  <path d="M29 30h52v15H46v38h35v15H29z" fill="#34d399"/>
+  <path d="M40 23h52v14H57v38h35v15H40z" fill="#fb3864" opacity=".82"/>
+  <path d="M25 54h25v10H25zm46 10h32v10H71z" fill="#67f7bd"/>
+  <path d="M31 91h22v8H31zm49-45h18v8H80z" fill="#ff7893"/>
+</svg>

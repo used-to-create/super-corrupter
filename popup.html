@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corruptor</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="app">
+      <p class="label">CORRUPTION</p>
+      <div class="brand">
+        <img src="logo.svg" alt="Corruptor logo" />
+        <h1>Corruptor</h1>
+      </div>
+
+      <label class="number-wrap">
+        <span>Intensity <output id="intensityValue" for="intensity">65%</output></span>
+        <input id="intensity" type="number" min="10" max="100" step="1" value="65" />
+        <div class="intensity-track" aria-hidden="true"><div id="intensityFill"></div></div>
+      </label>
+
+      <div class="presets" aria-label="Intensity presets">
+        <button type="button" data-level="25">LOW</button>
+        <button type="button" data-level="65">HIGH</button>
+        <button type="button" data-level="100">MAX</button>
+      </div>
+
+      <div class="buttons">
+        <button id="activate" class="primary">Corrupt</button>
+        <button id="blast" class="danger">Blast 2.0</button>
+        <button id="emergencyReset" class="emergency">EMERGENCY RESET</button>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
