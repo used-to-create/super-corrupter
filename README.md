@@ -1,2 +1,2 @@
 # super-corrupter
-can destroy websites
+can destroy websites and with blast 2.0
